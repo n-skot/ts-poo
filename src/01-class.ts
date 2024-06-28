@@ -8,7 +8,7 @@ date2.toISOString();
 console.log(date);
 console.log(date2);
 
-class CustomDate {
+export class CustomDate {
   year: number;
   month: number;
   day: number;
@@ -23,4 +23,3 @@ class CustomDate {
 const customDate = new CustomDate(2022, 11, 25);
 
 console.log(customDate);
-  
