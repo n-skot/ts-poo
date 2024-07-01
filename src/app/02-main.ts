@@ -20,4 +20,3 @@ productService.update(products[0].id, {
 
 const search = productService.findOne(products[0].id);
 console.log(search);
-        
